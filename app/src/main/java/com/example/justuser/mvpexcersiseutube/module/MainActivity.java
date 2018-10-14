@@ -1,10 +1,11 @@
-package com.example.justuser.mvpexcersiseutube.main;
+package com.example.justuser.mvpexcersiseutube.module;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Toast;
 
 import com.example.justuser.mvpexcersiseutube.R;
+
 
 
 /**
@@ -21,7 +22,9 @@ public class MainActivity extends AppCompatActivity implements MainContractInter
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mainPresenter = new MainPresenter(this);
+        // mainPresenter = new MainPresenter(this);
+
+        // mainPresenter = new MainPresenter();
 
     }
 
